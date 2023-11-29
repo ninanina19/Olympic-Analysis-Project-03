@@ -5,17 +5,17 @@ The data used is [120 years of Olympic history](https://www.kaggle.com/datasets/
 
 ### Problem Statement
 Write SQL query to provide answer of the following questions:
-1. [How many olympics games have been held?](#q01-how-many-olympics-games-have-been-held)
-2. [List down all Olympics games held so far](#q02-list-down-all-olympics-games-held-so-far)
-3. [Mention the total no of nations who participated in each olympics game?](#q03-mention-the-total-no-of-nations-who-participated-in-each-olympics-game)
-4. [Which year saw the highest and lowest no of countries participating in olympics?](#q04-which-year-saw-the-highest-and-lowest-no-of-countries-participating-in-olympics)
-5. [Which nation has participated in all of the olympic games?](#q05-which-nation-has-participated-in-all-of-the-olympic-games)
-6. [Identify the sport which was played in all summer olympics.](#q06-identify-the-sport-which-was-played-in-all-summer-olympics)
-7. [Which Sports were just played only once in the olympics?](#q07-which-sports-were-just-played-only-once-in-the-olympics)
-8. [Fetch the total no of sports played in each olympic games](#q08-fetch-the-total-no-of-sports-played-in-each-olympic-games)
-9. [Fetch details of the oldest athletes to win a gold medal](#q09-fetch-details-of-the-oldest-athletes-to-win-a-gold-medal)
-10. [Find the Ratio of male and female athletes participated in all olympic games](#q10-find-the-Ratio-of-male-and-female-athletes-participated-in-all-olympic-games)
-11. [Fetch the top 5 athletes who have won the most gold medals](#q11-fetch-the-top-5-athletes-who-have-won-the-most-gold-medals)
+1. [How many olympics games have been held?](#q01)
+2. [List down all Olympics games held so far](#q02)
+3. [Mention the total no of nations who participated in each olympics game?](#q03)
+4. [Which year saw the highest and lowest no of countries participating in olympics?](#q04)
+5. [Which nation has participated in all of the olympic games?](#q05)
+6. [Identify the sport which was played in all summer olympics.](#q06)
+7. [Which Sports were just played only once in the olympics?](#q07)
+8. [Fetch the total no of sports played in each olympic games](#q08)
+9. [Fetch details of the oldest athletes to win a gold medal](#q09)
+10. [Find the Ratio of male and female athletes participated in all olympic games](#q10)
+11. [Fetch the top 5 athletes who have won the most gold medals](#q11)
 12. [Fetch the top 5 athletes who have won the most medals (gold/silver/bronze)](#q12)
 13. [Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won](#q13)
 14. [List down total gold, silver and broze medals won by each country](#q14)
@@ -557,8 +557,3 @@ select * from t1
 Output:
 
 ![image for q20](images/q20.PNG)
-
-
-#### heading 4
-
-
