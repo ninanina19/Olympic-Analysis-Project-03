@@ -341,10 +341,7 @@ Output: (showing few records only)
 ![image for q14](images/q14.PNG)
 
 <!--------------------------------------- Q.15 ------------------------------------------->
-#### Q15 List down total gold, silver and broze medals won by each country corresponding to each olympic games.
-<h4 id="login-optional-fields">
-Optional Fields
-</h4>
+<h4 id="q15"> Q15 List down total gold, silver and broze medals won by each country corresponding to each olympic games </h4>
 
 ```
 with t1 as
