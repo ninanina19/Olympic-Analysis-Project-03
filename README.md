@@ -58,7 +58,7 @@ Output: (showing few records only)
 ![image for q02](images/q02.PNG)
 
 <!--------------------------------------- Q.03 ------------------------------------------->
-<h4 id="q03"> Q.03. Mention the total no of nations who participated in each olympics game? </h4>>
+<h4 id="q03"> Q.03. Mention the total no of nations who participated in each olympics game? </h4>
 
 ```
 SELECT
