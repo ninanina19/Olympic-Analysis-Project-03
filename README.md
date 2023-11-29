@@ -6,7 +6,7 @@ The data used is [120 years of Olympic history](https://www.kaggle.com/datasets/
 ### Problem Statement
 Write SQL query to provide answer of the following questions:
 1. [How many olympics games have been held?](#heading-4)
-2. List down all Olympics games held so far.
+2. [List down all Olympics games held so far.](#1.0.-heading-5)
 3. Mention the total no of nations who participated in each olympics game?
 4. Which year saw the highest and lowest no of countries participating in olympics?
 5. Which nation has participated in all of the olympic games?
@@ -28,7 +28,7 @@ Write SQL query to provide answer of the following questions:
 
 ### SQL Queries:
 <!--------------------------------------- Q.01 ------------------------------------------->
-#### Q.01. How many olympics games have been held?
+#### Q01 How many olympics games have been held?
 
 ```
 SELECT
@@ -43,7 +43,7 @@ Output:
 ![image for q01](images/q01.PNG)
 
 <!--------------------------------------- Q.02 ------------------------------------------->
-**Q.02. List down all Olympics games held so far.**
+#### Q02 List down all Olympics games held so far.
 
 ```
 SELECT 
@@ -74,7 +74,7 @@ Output: (showing few records only)
 ![image for q03](images/q03.PNG)
 
 <!--------------------------------------- Q.04 ------------------------------------------->
-**Q.04. Which year saw the highest and lowest no of countries participating in olympics?**
+#### Q04 Which year saw the highest and lowest no of countries participating in olympics?
 
 ```
 with
@@ -111,7 +111,7 @@ Output:
 ![image for q04](images/q04.PNG)
 
 <!--------------------------------------- Q.05 ------------------------------------------->
-**Q.05. Which nation has participated in all of the olympic games?**
+#### Q05 Which nation has participated in all of the olympic games?
 
 ```
 with
@@ -136,7 +136,7 @@ Output:
 ![image for q05](images/q05.PNG)
 
 <!--------------------------------------- Q.06 ------------------------------------------->
-**Q.06. Identify the sport which was played in all summer olympics.**
+#### Q06 Identify the sport which was played in all summer olympics.
 
 ```
 with
@@ -159,7 +159,7 @@ Output:
 ![image for q06](images/q06.PNG)
 
 <!--------------------------------------- Q.07 ------------------------------------------->
-**Q.07. Which Sports were just played only once in the olympics?**
+#### Q07 Which Sports were just played only once in the olympics?
 
 ```
 with 
@@ -184,7 +184,7 @@ Output:
 ![image for q07](images/q07.PNG)
 
 <!--------------------------------------- Q.08 ------------------------------------------->
-**Q.08. Fetch the total no of sports played in each olympic games.**
+#### Q08 Fetch the total no of sports played in each olympic games.
 
 ```
 with
@@ -204,7 +204,7 @@ Output: (showing few records only)
 ![image for q08](images/q08.PNG)
 
 <!--------------------------------------- Q.09 ------------------------------------------->
-**Q.09. Fetch details of the oldest athletes to win a gold medal.**
+#### Q09 Fetch details of the oldest athletes to win a gold medal.
 
 ```
 with
@@ -225,7 +225,7 @@ Output:
 ![image for q09](images/q09.PNG)
 
 <!--------------------------------------- Q.10 ------------------------------------------->
-**Q.10. Find the Ratio of male and female athletes participated in all olympic games.**
+#### Q10 Find the Ratio of male and female athletes participated in all olympic games.
 
 ```
 with
@@ -248,7 +248,7 @@ Output:
 ![image for q10](images/q10.PNG)
 
 <!--------------------------------------- Q.11 ------------------------------------------->
-**Q.11. Fetch the top 5 athletes who have won the most gold medals.**
+#### Q11 Fetch the top 5 athletes who have won the most gold medals.
 
 ```
 with
@@ -269,7 +269,7 @@ Output:
 ![image for q11](images/q11.PNG)
 
 <!--------------------------------------- Q.12 ------------------------------------------->
-**Q.12. Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).**
+#### Q12 Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).
 
 ```
 with
@@ -290,7 +290,7 @@ Output:
 ![image for q12](images/q12.PNG)
 
 <!--------------------------------------- Q.13 ------------------------------------------->
-**Q.13. Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won.**
+#### Q13 Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won.
 
 ```
 with
@@ -316,7 +316,7 @@ Output:
 
 
 <!--------------------------------------- Q.14 ------------------------------------------->
-**Q.14. List down total gold, silver and broze medals won by each country.**
+#### Q14 List down total gold, silver and broze medals won by each country.
 
 ```
 with
@@ -341,7 +341,7 @@ Output: (showing few records only)
 ![image for q14](images/q14.PNG)
 
 <!--------------------------------------- Q.15 ------------------------------------------->
-**Q.15. List down total gold, silver and broze medals won by each country corresponding to each olympic games.**
+#### Q15 List down total gold, silver and broze medals won by each country corresponding to each olympic games.
 
 ```
 with t1 as
@@ -365,7 +365,7 @@ Output: (showing few records only)
 ![image for q15](images/q15.PNG)
 
 <!--------------------------------------- Q.16 ------------------------------------------->
-**Q.16. Identify which country won the most gold, most silver and most bronze medals in each olympic games.**
+#### Q16 Identify which country won the most gold, most silver and most bronze medals in each olympic games.
 
 ```
 with t1 as 
@@ -414,7 +414,7 @@ Output: (showing few records only)
 ![image for q16](images/q16.PNG)
 
 <!--------------------------------------- Q.17 ------------------------------------------->
-**Q.17. Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games.**
+#### Q17 Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games.
 
 ```
 with t1 as 
@@ -488,7 +488,7 @@ Output: (showing few records only)
 
 
 <!--------------------------------------- Q.18 ------------------------------------------->
-**Q.18. Which countries have never won gold medal but have won silver/bronze medals?**
+#### Q18 Which countries have never won gold medal but have won silver/bronze medals?
 
 ```
 with t1 as 
@@ -518,7 +518,7 @@ Output: (showing few records only)
 
 
 <!--------------------------------------- Q.19 ------------------------------------------->
-**Q.19. In which Sport/event, India has won highest medals.**
+#### Q19 In which Sport/event, India has won highest medals.
 
 ```
 with t1 as 
@@ -540,7 +540,7 @@ Output:
 
 
 <!--------------------------------------- Q.20 ------------------------------------------->
-**Q.20. Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.**
+#### Q20 Break down all olympic games where india won medal for Hockey and how many medals in each olympic games.
 
 ```
 with t1 as 
@@ -560,3 +560,5 @@ Output:
 
 
 #### heading 4
+
+
