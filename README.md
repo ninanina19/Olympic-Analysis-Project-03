@@ -5,7 +5,7 @@ The data used is [120 years of Olympic history](https://www.kaggle.com/datasets/
 
 ### Problem Statement
 Write SQL query to provide answer of the following questions:
-1. [How many olympics games have been held?](Q.01.-How-many-olympics-games-have-been-held?)
+1. [How many olympics games have been held?](#heading-4)
 2. List down all Olympics games held so far.
 3. Mention the total no of nations who participated in each olympics game?
 4. Which year saw the highest and lowest no of countries participating in olympics?
@@ -28,7 +28,7 @@ Write SQL query to provide answer of the following questions:
 
 ### SQL Queries:
 <!--------------------------------------- Q.01 ------------------------------------------->
-**Q.01. How many olympics games have been held?**
+#### Q.01. How many olympics games have been held?
 
 ```
 SELECT
@@ -557,3 +557,6 @@ select * from t1
 Output:
 
 ![image for q20](images/q20.PNG)
+
+
+#### heading 4
