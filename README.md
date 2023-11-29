@@ -19,7 +19,7 @@ Write SQL query to provide answer of the following questions:
 12. [Fetch the top 5 athletes who have won the most medals (gold/silver/bronze)](#q12-fetch-the-top-5-athletes-who-have-won-the-most-medals-(gold/silver/bronze))
 13. [Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won](#q13-fetch-the-top-5-most-successful-countries-in-olympics-success-is-defined-by-no-of-medals-won)
 14. [List down total gold, silver and broze medals won by each country](#q14-list-down-total-gold-silver-and-broze-medals-won-by-each-country)
-15. [List down total gold, silver and broze medals won by each country corresponding to each olympic games](#login-optional-fields)
+15. [List down total gold, silver and broze medals won by each country corresponding to each olympic games](#q15)
 16. [Identify which country won the most gold, most silver and most bronze medals in each olympic games.](#q16-mention-the-total-no-of-nations-who-participated-in-each-olympics-game)
 17. [Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games.](#q17-mention-the-total-no-of-nations-who-participated-in-each-olympics-game)
 18. [Which countries have never won gold medal but have won silver/bronze medals?](#q18-mention-the-total-no-of-nations-who-participated-in-each-olympics-game)
