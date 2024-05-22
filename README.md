@@ -1,7 +1,7 @@
 # Olympic-Analysis-Project-03
-In this part I did analytics using SQL. This project following youtube video from the TechTFQ. Here is the URL : [Practice Writing SQL Queries](https://www.youtube.com/watch?v=XruOBp7yPXU&t=802s).
+In this project, I performed data analysis using SQL, following a YouTube tutorial from TechTFQ. Here is the URL: [Practice Writing SQL Queries](https://www.youtube.com/watch?v=XruOBp7yPXU&t=802s).
 
-The data used is [120 years of Olympic history](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) from Kaggle. The tools used to process the dataset is **PostgresSQL**.
+The data used is [120 years of Olympic history](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results) from Kaggle, and I used PostgreSQL to process the data.
 
 ### Problem Statement
 Write SQL query to provide answer of the following questions:
